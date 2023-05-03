@@ -56,3 +56,17 @@ input.addEventListener(
   },
   false
 );
+
+input.addEventListener("input", function () {
+  noresults.style.display = "none";
+});
+
+btnmode.addEventListener("click", function () {
+  if (darkMode == false) {
+    darkModeProperties();
+  } else {
+    lightModeProperties();
+  }
+});
+
+//functions
