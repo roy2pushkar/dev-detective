@@ -70,3 +70,14 @@ btnmode.addEventListener("click", function () {
 });
 
 //functions
+function getUserData(gitUrl) {
+  fetch(gitUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      updateProfile(data);
+    })
+    .catch((error) => {
+      throw error;
+    });
+}
