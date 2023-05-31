@@ -76,5 +76,12 @@
     background-position-y: center;
     background-size: 20px;
   }
-  
+  #input {
+    border: none;
+    width: 80%;
+    outline: none;
+    background: none;
+    color: var(--lm-text);
+    padding-left: 50px;
+  }
   
