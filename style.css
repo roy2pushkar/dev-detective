@@ -84,4 +84,9 @@
     color: var(--lm-text);
     padding-left: 50px;
   }
+  #input::placeholder {
+    color: var(--lm-text);
+    letter-spacing: -0.5px;
+    font-size: 13px;
+  }
   
