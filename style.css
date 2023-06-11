@@ -147,3 +147,13 @@
     #user {
     color: var(--btn);
   }
+  .profile-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #bio {
+    line-height: 25px;
+    opacity: 0.75;
+  }
